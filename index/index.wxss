@@ -2,10 +2,9 @@
 150rpx+200rpx+40rpx;
  */
 .weahter-wrapper  {
-  box-sizing: border-box;
+  position: relative;
   padding-top: 175rpx;
-  padding-bottom: 250rpx;
-  background-color: rgb(151, 156, 139);
+  padding-bottom: 250rpx; 
 }
 .temp {
   text-align: center;
@@ -17,4 +16,11 @@
   text-align: center;
   font-size: 40rpx;
   opacity: 0.8;
+}
+.picture {
+  position: absolute;
+  width: 100%;
+  height:100%;
+  top: 0;
+  z-index: -1;
 }

@@ -1,0 +1,6 @@
+.tempture {
+  font-size: 200rpx;
+  text-align: center;
+  margin-top: 150rpx;
+  opacity: 0.7
+}
